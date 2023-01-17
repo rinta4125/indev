@@ -32,7 +32,33 @@
         
         <table class="day">
           <tr>
-            <th><div id = "d1" class = "daynum"></div></th>
+            <th>
+              
+              <div id = "d1" class = "daynum"></div>
+
+              <!-- モーダルエリアここから -->
+              <section id="modalArea1" class="modalArea">
+                <div id="modalBg1" class="modalBg"></div>
+                <div class="modalWrapper">
+                  <div class="modalContents">
+                    <h1 id="modalH1"></h1>
+                    <nobr id="delete1_1_temp"><button id="delete1_1" type="button" >削除</button></nobr> <nobr id="modalP1_1"></nobr><br>
+                    <nobr id="delete1_2_temp"><button id="delete1_2" type="button" >削除</button></nobr> <nobr id="modalP1_2"></nobr><br>
+                    <nobr id="delete1_3_temp"><button id="delete1_3" type="button" >削除</button></nobr> <nobr id="modalP1_3"></nobr><br>
+                    <nobr id="delete1_4_temp"><button id="delete1_4" type="button" >削除</button></nobr> <nobr id="modalP1_4"></nobr><br>
+                    <nobr id="delete1_5_temp"><button id="delete1_5" type="button" >削除</button></nobr> <nobr id="modalP1_5"></nobr>
+                  </div>
+                  <div id="closeModal26" class="closeModal">
+                    ×
+                  </div>
+                </div>
+              </section>
+              <!-- モーダルエリアここまで -->
+
+              <!-- ↓body閉じタグ直前でjQueryを読み込む -->
+              <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            
+            </th>
           </tr>
           <tr>
             <th id = "th1_1" ><div id = "ss"></div><div id = "c1_1"></div></th>
